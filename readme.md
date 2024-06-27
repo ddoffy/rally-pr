@@ -6,24 +6,24 @@ Go to the root of the project and run the following command:
 
 Mac OS with Homebrew:
 
-```make mac
-
+```
+make mac 
 ```
 
 Debian/Ubuntu:
 
-```make debian
-
+```
+make debian
 ```
 
 Set the environment variable `RALLY_API_KEY` in your `.bashrc` or `.zshrc` file:
 
-```echo "export RALLY_API_KEY=your_api_key" >> ~/.bashrc
-
+```
+echo "export RALLY_API_KEY=your_api_key" >> ~/.bashrc
 ```
 
-```echo "export RALLY_API_KEY=your_api_key" >> ~/.zshrc
-
+```
+echo "export RALLY_API_KEY=your_api_key" >> ~/.zshrc
 ```
 
 ## Usage
@@ -36,8 +36,8 @@ convention below:
 
 Go to project which you are working with and run the following command:
 
-```rally-pr
-
+```
+rally-pr
 ```
 
 ## License
@@ -55,6 +55,5 @@ Go to project which you are working with and run the following command:
 5. Submit a pull request :D
 
 ```
-
-
+Welcome!
 ```
