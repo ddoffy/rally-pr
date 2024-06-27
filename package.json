@@ -1,0 +1,22 @@
+{
+  "bin": {
+    "rally-pr": "./index.js"
+  },
+  "name": "rally-pr",
+  "version": "1.0.0",
+  "description": "automatically create pr and fill in body",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "D. Doffy",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.3.0",
+    "rally": "^2.1.3"
+  }
+}
